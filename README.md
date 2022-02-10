@@ -21,3 +21,7 @@ _You will need credentials and IP address authorization. Please refer to your DP
 * [GetShipment](https://github.com/ekyna/Dpd/blob/master/examples/get-shipment.php)
 * [GetLabel](https://github.com/ekyna/Dpd/blob/master/examples/get-label.php)
 
+## Testing with Docker
+
+    docker build . -t dpd-test
+    docker run -it --rm dpd-test php examples/create-shipment.php

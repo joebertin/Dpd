@@ -19,6 +19,7 @@
     "require": {
         "php": ">=7.1",
         "ext-soap": "*",
+        "ext-gd": "*",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
